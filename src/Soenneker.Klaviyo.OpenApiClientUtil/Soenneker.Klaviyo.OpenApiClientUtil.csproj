@@ -49,9 +49,7 @@
         <PackageReference Include="Soenneker.Utils.AsyncSingleton" Version="11.0.886" />
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\..\..\soenneker.klaviyo.httpclients\src\Soenneker.Klaviyo.HttpClients\Soenneker.Klaviyo.HttpClients.csproj" Condition="Exists('..\..\..\soenneker.klaviyo.httpclients\src\Soenneker.Klaviyo.HttpClients\Soenneker.Klaviyo.HttpClients.csproj')" />
-        <PackageReference Include="Soenneker.Klaviyo.HttpClients" Version="11.0.0" Condition="!Exists('..\..\..\soenneker.klaviyo.httpclients\src\Soenneker.Klaviyo.HttpClients\Soenneker.Klaviyo.HttpClients.csproj')" />
-        <ProjectReference Include="..\..\..\soenneker.klaviyo.openapiclient\src\Soenneker.Klaviyo.OpenApiClient\Soenneker.Klaviyo.OpenApiClient.csproj" Condition="Exists('..\..\..\soenneker.klaviyo.openapiclient\src\Soenneker.Klaviyo.OpenApiClient\Soenneker.Klaviyo.OpenApiClient.csproj')" />
-        <PackageReference Include="Soenneker.Klaviyo.OpenApiClient" Version="11.0.0" Condition="!Exists('..\..\..\soenneker.klaviyo.openapiclient\src\Soenneker.Klaviyo.OpenApiClient\Soenneker.Klaviyo.OpenApiClient.csproj')" />
+        <PackageReference Include="Soenneker.Klaviyo.HttpClients" Version="11.0.1" />
+        <PackageReference Include="Soenneker.Klaviyo.OpenApiClient" Version="11.0.3" />
     </ItemGroup>
 </Project>
