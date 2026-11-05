@@ -46,6 +46,6 @@
 
     <ItemGroup>
         <PackageReference Include="Soenneker.Klaviyo.HttpClients" Version="11.0.6" />
-        <PackageReference Include="Soenneker.Klaviyo.OpenApiClient" Version="11.0.7" />
+        <PackageReference Include="Soenneker.Klaviyo.OpenApiClient" Version="11.0.8" />
     </ItemGroup>
 </Project>
